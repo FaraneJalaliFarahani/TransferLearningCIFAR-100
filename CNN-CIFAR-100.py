@@ -193,12 +193,6 @@ for t in range (100):
   accur.append(100 * correct2 / total2)
 
 
-
-plt.plot(epoch, losses, 'r*')  
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-
-
 plt.plot(epoch, accur, 'r*')  
 plt.xlabel("Epoch")
 plt.ylabel("Accuracy")
