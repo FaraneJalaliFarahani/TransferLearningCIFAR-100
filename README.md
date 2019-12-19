@@ -10,3 +10,4 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6
 
 Inorder to classify 5 classes of CIFIAR-100(bicycle, bus, dolphin, mountain, table), the CNN classifier with 3 convolutional layers and 2 fully connected layers was trained on CIFAR-10. covcolutional layers of pre-trained model were freezed and the weights of the fully connected layers were fine-tuned by the backpropagation.
 
+This model reached 73 percent accuracy on CIFAR-100 test images.
